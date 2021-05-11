@@ -8,6 +8,7 @@
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/Favicon_1.png">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -22,24 +23,24 @@
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
   <header class="masthead mb-auto">
     <div class="inner">
-      <h3 class="masthead-brand">Bodega Beer</h3>
+      <h1 class="masthead-brand">Bodega Beer</h1>
       <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="#">Home</a>
-        <a class="nav-link" href="#">Featured Beers</a>
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link active color-me" href="#">Home</a>
+        <a class="nav-link color-me" href="#">Featured Beers</a>
+        <a class="nav-link color-me" href="#">Contact</a>
       </nav>
     </div>
   </header>
 
   <main role="main" class="inner cover">
-    <h1 class="cover-heading">The only way to enjoy time with your furry friend.</h1>
-    <img class="displayed-img" src="images/dog_beer.png" alt="Beer">
+    <h2 class="cover-heading">The only way to enjoy time with your furry friend.</h2>
+    <img class="displayed-img" src="images/bodega_beer.jpg" alt="Beer">
     <p class="lead">Sit back and relax with this citrus beer, inspired by Bodega. During the summer nights, I've always enjoyed spending time with Bodega. Now you can enjoy this beverage with your favorite four legged friend too!</p>
 
 
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-      Launch demo modal
+      Click for a surprise!
     </button>
 
     <!-- Modal -->
@@ -47,13 +48,16 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title w-100 text-center" id="exampleModalLabel">Modal title</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              You just won a 6-pack of our Bodgea Beer! Create an account and enter this promo code #10294.
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            ...
+
+            <img class="displayed-img" src="images/dog_beverage.png" alt="Bodega Beer">
+
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -62,6 +66,37 @@
         </div>
       </div>
     </div>
+
+<!--BEGINNING OF RANDOM STORY INFO -->
+
+    <main class="container">
+
+      <div class="starter-template">
+        <h2 class="lead">Who likes stories? Stories that are silly?<br>Enter two names and read a beer story that'll make your day!</h2>
+      </div>
+
+    </main><!-- /.container -->
+
+    <div>
+          <label for="customnameA">Enter custom name:</label>
+          <input id="customnameA" type="text" placeholder="">
+        </div>
+    <div>
+          <label for="customnameB">Enter custom name:</label>
+          <input id="customnameB" type="text" placeholder="">
+        </div>
+        <div>
+          <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+          <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+          <label for="ru">RU</label><input id="ru" type="radio" name="ukus" value="ru">
+        </div>
+        <div>
+          <button class="randomize">Generate random story</button>
+        </div>
+        <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+        <p class="story"></p>
+
+        <!--END OF RANDOM STORY INFO -->
 
   </main>
 
