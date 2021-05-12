@@ -20,8 +20,12 @@ h2 {
   padding-top: 20px;
 }
 
-color-me {
+.color-me {
   color: #f7cc54;
+}
+
+.color-me:hover{
+  color: #998442;
 }
 
 img {
@@ -30,4 +34,28 @@ img {
   padding-right: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.my-modal-button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.btn-primary {
+  color: black;
+  background-color: #f7cc54;
+  border-color: #f7cc54;
+}
+
+.btn-primary:hover {
+  background-color: #998442;
+}
+
+.btn-gray {
+  background-color: #D3D3D3;
+}
+
+.btn-gray:hover {
+  background-color: #808080;
 }

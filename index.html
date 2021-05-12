@@ -32,7 +32,7 @@
     </div>
   </header>
 
-  <main role="main" class="inner cover">
+
     <h2 class="cover-heading">The only way to enjoy time with your furry friend.</h2>
     <img class="displayed-img" src="images/bodega_beer.jpg" alt="Beer">
     <p class="lead">Sit back and relax with this citrus beer, inspired by Bodega. During the summer nights, I've always enjoyed spending time with Bodega. Now you can enjoy this beverage with your favorite four legged friend too!</p>
@@ -47,8 +47,8 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title w-100 text-center" id="exampleModalLabel">Modal title</h5>
+          <div class="modal-header text-center d-block">
+            <h5 class="modal-title d-inline-block" id="exampleModalLabel">Modal title</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               You just won a 6-pack of our Bodgea Beer! Create an account and enter this promo code #10294.
               <span aria-hidden="true">&times;</span>
@@ -61,44 +61,32 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
       </div>
     </div>
 
 <!--BEGINNING OF RANDOM STORY INFO -->
+<span id="result"> </span>
 
-    <main class="container">
+<button class="btn-gray" onclick = "setInterval(getRandomImage, 2000)">Click to view submitted pictures of our customers' furry friends!</button>
 
-      <div class="starter-template">
-        <h2 class="lead">Who likes stories? Stories that are silly?<br>Enter two names and read a beer story that'll make your day!</h2>
-      </div>
 
-    </main><!-- /.container -->
+<!-- <div class="container">
+    <div class="row">
+      <div class="col-sm my-col" alt= >
+        <div class="full-img">
+          <img class="displayed-img img-fluid" src="images/dog_beer.jpg" alt="Afghan Hound">
+          <div class="overlay"></div>
+          <button class="darkbutton">Darken</button>
+        </div>
 
-    <div>
-          <label for="customnameA">Enter custom name:</label>
-          <input id="customnameA" type="text" placeholder="">
-        </div>
-    <div>
-          <label for="customnameB">Enter custom name:</label>
-          <input id="customnameB" type="text" placeholder="">
-        </div>
-        <div>
-          <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
-          <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
-          <label for="ru">RU</label><input id="ru" type="radio" name="ukus" value="ru">
-        </div>
-        <div>
-          <button class="randomize">Generate random story</button>
-        </div>
-        <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
-        <p class="story"></p>
+        <div class="thumb-bar">
+            </div> -->
 
         <!--END OF RANDOM STORY INFO -->
 
-  </main>
+
 
   <footer class="mastfoot mt-auto">
     <div class="inner">
@@ -106,6 +94,7 @@
     </div>
   </footer>
 </div>
+
 
 
 <!-- Bootstrap core JavaScript
